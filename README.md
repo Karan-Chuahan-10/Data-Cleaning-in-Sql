@@ -23,6 +23,8 @@ This project demonstrates various techniques to clean and transform data in a SQ
 **Screenshots**
 ![image](https://github.com/user-attachments/assets/abf0d0dc-7aba-496e-9077-51abcde3e6ce)
 ![image](https://github.com/user-attachments/assets/4d543f8f-16ba-42ba-9da9-9756ec9d1e7c)
+![image](https://github.com/user-attachments/assets/4a271434-a336-4e4a-8134-e4bd1885bc42)
+![image](https://github.com/user-attachments/assets/41fa6e44-5de2-45de-81cb-da39b9ec1980)
 
 
 

@@ -20,7 +20,11 @@ N/A
 This project demonstrates various techniques to clean and transform data in a SQL database. The dataset used is from PortfolioProject..Nashvillehousing. The cleaning process includes converting date formats, populating missing data, splitting address columns, standardizing column values, removing duplicates, and deleting unused columns.
 
 ## Screenshots
-**Screenshots** :https://github.com/Karan-Chuahan-10/Covid-Data-Exploration/tree/6cd0c6f41ca4c21ca8f9b76e3df7177fbc372500/Screenshot
+**Screenshots**
+![image](https://github.com/user-attachments/assets/abf0d0dc-7aba-496e-9077-51abcde3e6ce)
+![image](https://github.com/user-attachments/assets/4d543f8f-16ba-42ba-9da9-9756ec9d1e7c)
+
+
 
 ## Technologies
 - **Microsoft Excel:** A source file which is loaded into the SSMS- Sql server management Studio for cleaning the data 

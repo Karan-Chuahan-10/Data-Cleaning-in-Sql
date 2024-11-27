@@ -39,13 +39,13 @@ This project demonstrates various techniques to clean and transform data in a SQ
 - **Data Collection, Preparation, Transformation and Structuring:** SQL was used to extract the excel data which is futher used for running scripts for cleanning, and organizing raw data, removing duplicates and standardizing formats to ensure accuracy. SQL was used to query and aggregate data from Excel, allowing efficient structuring of the housing data.
 
 ## Key features
-- **Data Integration:** Extraction and integration of COVID-19 data from Excel for in-depth analysis.
-- **Data Validation and Querying:** SQL querying ensures accurate and consistent data handling, providing reliable insights and metrics.
-- **Visualization:** Engaging charts, graphs, and maps in Tableau illustrate trends in COVID-19 cases, deaths, and vaccination rates.
-- **Interactivity:** Includes dynamic filters and drill-down features to explore data by different locations, dates, and population metrics.
-- **Global and Continental Insights:** Aggregated data views highlight global and continental COVID-19 impacts, comparing regions with the highest infection and death rates.
-- **Population vs. Infection Analysis:** Calculations provide insights into infection rates relative to population, enabling a clear understanding of regional impact.
-
+- **Date Format Standardization:** Conversion and alignment of inconsistent date formats for uniformity.
+- **Handling Missing Data:** Populating null values in columns like PropertyAddress based on related data (e.g., ParcelID).
+- **Data Transformation:** Splitting compound columns (e.g., PropertyAddress and OwnerAddress) into separate fields for better granularity.
+- **Value Standardization:** Replacing ambiguous values (e.g., Y/N to Yes/No) for improved readability and consistency.
+- **Duplicate Removal:** Identifying and removing duplicate records using ROW_NUMBER with Common Table Expressions (CTEs).
+- **Column Optimization:** Deleting unused columns to declutter the dataset and improve performance.
+- 
 ## Benefits 
 - **Improved Consistency:** Standardized formats (e.g., dates and categorical values) ensure uniformity across the dataset, reducing errors in analysis.
 - **Enhanced Completeness:** Filling missing data and splitting compound columns make the dataset more comprehensive and detailed.
